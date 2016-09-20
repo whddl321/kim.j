@@ -1,7 +1,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" >
 <head>
-    <title>�α��� �� ȸ������</title>
+    <title>로그인 및 회원가입</title>
     <style>
         td,th{border:solid 1px #000;}
      
@@ -12,11 +12,11 @@
 <body>
  <form action="http://sso.dongyang.ac.kr/sso/checkDupUsername.jsp>
  <pre>
- �̸�:<input type="text" name="sso_usernm" />
- ����:<input type="text" name="sso_birthdt" />
- ����:<input type="text" name="sso_biznum" value="S"/>
- �й�:<input type="text" name="sso_bubun" />
- <button type="submit">ã��</button>
+ 이름:<input type="text" name="sso_usernm" />
+ 생년:<input type="text" name="sso_birthdt" />
+ 구분:<input type="text" name="sso_biznum" value="S"/>
+ 학번:<input type="text" name="sso_bubun" />
+ <button type="submit">찾기</button>
  </pre>
 </form>
 
@@ -31,29 +31,29 @@
  <th>PW</th>
  <td> <input type="password" /></td>
  <tr>
- <th>����</th>
+ <th>구분</th>
  <td>
-  <input type ="radio" name="rtype" id="rtype1" /><label for="rtype1">���л�/������</label>
- <input type ="radio"name="rtype" /id="rtype2"><label for="rtype2">������</label>
- <input type = "checkbox" /> ��ȸ��
+  <input type ="radio" name="rtype" id="rtype1" /><label for="rtype1">재학생/졸업생</label>
+ <input type ="radio"name="rtype" /id="rtype2"><label for="rtype2">교직원</label>
+ <input type = "checkbox" /> 비회원
  </tr>
-  <th>��������</th>
+  <th>질문선택</th>
    <td>
     <select>
- <option>:::��й�ȣ����:::</option> <br/>
- <option>��Ӵ��� �̸���?</option> <br/>
+ <option>:::비밀번호질문:::</option> <br/>
+ <option>어머니의 이름은?</option> <br/>
  </select>
    </td>
    </tr>
 
    <tr>
-   <th>��Ÿ����</th>
+   <th>기타문의</th>
    <td> <textarea></textarea></td>
  </tr>
   <td colspan="2 calss="bcenter">
-  <button type="button">�ӽú�й�ȣ �߼�</button>
-  <button type="reset">�ӽú�й�ȣ �߼�</button>
-  <button type="submit">�ӽú�й�ȣ �߼�</button>
+  <button type="button">임시비밀번호 발송</button>
+  <button type="reset">임시비밀번호 발송</button>
+  <button type="submit">임시비밀번호 발송</button>
 
 
 
